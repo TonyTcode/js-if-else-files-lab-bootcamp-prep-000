@@ -14,7 +14,7 @@ else if (index.name === "Joe") { console.log("The name is correct")
 if (index.height === 70) {
     console.log("The height is correct")
 } 
-else if (index.height === 74) {console.log("The height is correct")}
+else if (index.height === "74") {console.log("The height is correct")}
 else {
     console.log("Expected: 70, Received: "+index.height)
 }
